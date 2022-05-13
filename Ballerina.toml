@@ -1,0 +1,13 @@
+[package]
+distribution = "2201.0.3"
+
+[build-options]
+observabilityIncluded = true
+
+[[platform.java11.dependency]]
+groupId = "mysql"
+artifactId = "mysql-connector-java"
+version = "8.0.26"
+
+[[platform.java11.dependency]]
+path = "/Users/shayan/Documents/JarLibraries/Driver.jar"
